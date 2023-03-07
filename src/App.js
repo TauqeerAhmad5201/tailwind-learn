@@ -1,12 +1,10 @@
 import './App.css';
+import Feature from './components/Feature';
 
 function App() {
   return (
     <div>
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    <p class="text-4xl">The quick brown fox ...</p>
+    <Feature></Feature>
     </div>
   );
 }
