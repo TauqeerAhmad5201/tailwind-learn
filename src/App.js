@@ -1,11 +1,16 @@
 import './App.css';
-import Feature from './components/Feature';
+import Navbar from './components/Navbar'
+import CTA from './components/CTA';
+import SlideOver from './components/Slide-over';
+
 
 function App() {
   return (
-    <div>
-    <Feature></Feature>
-    </div>
+    <>
+    <Navbar></Navbar>
+    <CTA></CTA>
+    <SlideOver></SlideOver>
+    </>
   );
 }
 
